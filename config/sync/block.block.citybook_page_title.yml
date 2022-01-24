@@ -1,0 +1,20 @@
+uuid: 34478126-dc13-49dc-aa7f-363fd5057b52
+langcode: en
+status: true
+dependencies:
+  theme:
+    - citybook
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: citybook_page_title
+theme: citybook
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

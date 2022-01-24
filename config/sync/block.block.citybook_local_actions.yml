@@ -1,0 +1,20 @@
+uuid: 56ab6ce1-6474-4689-8053-f8bb3452ba82
+langcode: en
+status: true
+dependencies:
+  theme:
+    - citybook
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: citybook_local_actions
+theme: citybook
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

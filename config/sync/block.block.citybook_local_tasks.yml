@@ -1,0 +1,22 @@
+uuid: e7824b62-934f-4070-a51c-230f089a1481
+langcode: en
+status: true
+dependencies:
+  theme:
+    - citybook
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: citybook_local_tasks
+theme: citybook
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
